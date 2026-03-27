@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon foreground: cute Chiikawa-style character face
+  Viewport: 108×108dp  |  Safe zone: 18dp–90dp (center 72×72)
+  Character centered at (54,54)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Head (white circle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,27 m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+
+    <!-- Left ear -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,31 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+
+    <!-- Right ear -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,31 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+
+    <!-- Inner left ear (pink) -->
+    <path
+        android:fillColor="#FFB3C6"
+        android:pathData="M35,31 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Inner right ear (pink) -->
+    <path
+        android:fillColor="#FFB3C6"
+        android:pathData="M73,31 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Left eye -->
+    <path
+        android:fillColor="#2D1A5A"
+        android:pathData="M46,50 m-4,0 a4,4.5 0 1,0 8,0 a4,4.5 0 1,0 -8,0" />
+
+    <!-- Right eye -->
+    <path
+        android:fillColor="#2D1A5A"
+        android:pathData="M62,50 m-4,0 a4,4.5 0 1,0 8,0 a4,4.5 0 1,0 -8,0" />
+
+    <!-- Left eye shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,47 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Right eye shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,47 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Left blush -->
+    <path
+        android:fillColor="#FFB3C6"
+        android:fillAlpha="0.7"
+        android:pathData="M38,57 m-5,0 a5,3 0 1,0 10,0 a5,3 0 1,0 -10,0" />
+
+    <!-- Right blush -->
+    <path
+        android:fillColor="#FFB3C6"
+        android:fillAlpha="0.7"
+        android:pathData="M70,57 m-5,0 a5,3 0 1,0 10,0 a5,3 0 1,0 -10,0" />
+
+    <!-- Smile -->
+    <path
+        android:strokeColor="#2D1A5A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M47,60 Q54,67 61,60" />
+
+    <!-- Small tomato accent (bottom-right) -->
+    <path
+        android:fillColor="#E84A5F"
+        android:pathData="M74,68 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- Tomato leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M74,62 Q76,59 79,60 Q77,63 74,62 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M74,62 Q72,59 69,60 Q71,63 74,62 Z" />
+
+</vector>

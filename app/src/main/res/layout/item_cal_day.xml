@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cal_day_width"
+    android:layout_height="@dimen/cal_day_height"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_cal_day"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginHorizontal="4dp">
+
+    <TextView
+        android:id="@+id/tvWeekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:textColor="@color/cal_day_text" />
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/cal_day_text" />
+
+    <!-- Today dot indicator -->
+    <View
+        android:id="@+id/vTodayDot"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_today_dot"
+        android:visibility="gone" />
+
+</LinearLayout>
