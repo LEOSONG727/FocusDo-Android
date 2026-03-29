@@ -11,7 +11,7 @@
         <item name="colorOnSecondary">@color/dark_background</item>
         <item name="colorSecondaryContainer">#3D1030</item>
         <item name="colorOnSecondaryContainer">#F4B8D8</item>
-        <item name="colorBackground">@color/dark_background</item>
+        <item name="android:colorBackground">@color/dark_background</item>
         <item name="colorSurface">@color/dark_surface</item>
         <item name="colorSurfaceVariant">@color/dark_surface_variant</item>
         <item name="colorOnSurface">@color/dark_on_surface</item>
