@@ -49,4 +49,7 @@ dependencies {
     kapt(libs.room.compiler)
     implementation(libs.coroutines.android)
     implementation(libs.viewpager2)
+    implementation(libs.activity.ktx)
+    implementation(libs.fragment.ktx)
+    implementation(libs.recyclerview)
 }
